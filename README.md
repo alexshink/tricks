@@ -8,10 +8,21 @@
 </path>
 ```
 
-> информация по основной анимации: https://css-tricks.com/guide-svg-animations-smil/
+> _информация по основной анимации: https://css-tricks.com/guide-svg-animations-smil/_
 
 # Статистика
 Инструмент для анализа глобального веб-трафика. Браузеры, ОСи, девайсы и версии: http://gs.statcounter.com/
 * версии iOS: http://gs.statcounter.com/ios-version-market-share/mobile/worldwide/
 * вид девайса: http://gs.statcounter.com/platform-market-share/desktop-mobile-tablet
 * браузеры: http://gs.statcounter.com/browser-market-share
+
+# User-Agent
+Идентификация браузера на основе обнаружения строки агента пользователя (`window.navigator.userAgent`) является ненадежной и не рекомендуется, так как строка пользовательского агента может быть изменена пользователем.
+
+**Почему везде `Mozilla/5.0`?**<br>
+Первый «Mozilla» был переименован в «Netscape Navigator», но в User-Agent позиционировался как `Mozilla/1.0`. Он первым начал поддерживать фреймы и быстро расти в плане функционала. Вебмастеры начали различать браузеры по юзерагенту, чтобы знать, когда использовать определённый функционал. Однажды:
+> Netscape сказал "давайте посмеемся над Microsoft" и ссылался на Windows как на «плохо отлаженные драйверы устройств»
+
+После этого Microsoft сделали «Internet Explorer», который тоже мог во фреймы, поэтому в юзерагенте они написали `Mozilla/1.22 (compatible; MSIE 2.0; Windows 95)`, чтобы уже имеющиеся сайты могли использовать функционал «Netscape Navigator» в IE. Так User-Agent всех браузеров и превратился в User-Agent «Mozilla»
+
+> _краткая история войны браузеров: https://habr.com/ru/post/84222/_
