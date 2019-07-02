@@ -45,3 +45,8 @@
 После этого Microsoft сделали «Internet Explorer», который тоже мог во фреймы, поэтому в юзерагенте они написали `Mozilla/1.22 (compatible; MSIE 2.0; Windows 95)`, чтобы уже имеющиеся сайты могли использовать функционал «Netscape Navigator» в IE. Так User-Agent всех браузеров и превратился в User-Agent «Mozilla»
 
 > _краткая история войны браузеров: https://habr.com/ru/post/84222/_
+
+# SLICK
+В ожидании функции свободной прокрутки:<br>
+https://github.com/kenwheeler/slick/issues/1665<br>
+https://github.com/kenwheeler/slick/issues/3461
