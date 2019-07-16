@@ -50,3 +50,9 @@
 В ожидании функции свободной прокрутки:<br>
 https://github.com/kenwheeler/slick/issues/1665<br>
 https://github.com/kenwheeler/slick/issues/3461
+
+# РЕСУРСЫ
+* FREE SVG: https://www.flaticon.com
+* FREE SVG: https://thenounproject.com
+* FREE LINEAR SVG: https://linearicons.com/free
+* ICON (SVG) FONTS: https://icomoon.io/app
