@@ -1,3 +1,27 @@
+# VUE
+## Переменные окружения NPM+VUE+WEBPACK
+Для прокидывания перменных при запуске/билде приложения, необходимо в файле `vue.config.js` описать конфигурацию Webpack:
+
+```
+const webpack = require('webpack');
+configureWebpack: {
+  plugins: [
+    new webpack.DefinePlugin({
+      'process.env': {
+        CUSTOM_VAR: JSON.stringify(process.env.CUSTOM_VAR) || 'default value'
+      }
+    })
+  ]
+}
+```
+
+Установка кастомного значения перменной в терминале:
+`set CUSTOM_VAR=value && npm run serve`
+
+Работа с переменной в приложении:
+`console.log(process.env.CUSTOM_VAR)`
+
+
 # SVG-анимация
 ## атрибут `id`
 Все значения атрибутов `id` у тегов анимации (`<animate>`, `<animateTransform>` и др.) должны быть написаны без символа `-`. Иначе это может привести к некорректной работе анимации в некоторых браузерах. Например, в случае с Firefox:
