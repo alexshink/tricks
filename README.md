@@ -21,6 +21,8 @@ configureWebpack: {
 Работа с переменной в приложении:
 `console.log(process.env.CUSTOM_VAR)`
 
+## Загрузка ресурсов из папок вне Vue-проекта
+![внешние компоненты](vue-external-components.jpg)
 
 # SVG-анимация
 ## атрибут `id`
