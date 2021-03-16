@@ -1,5 +1,5 @@
 {
-  "countries": [
+  "posts": [
     {
       "id": 1,
       "name": "Россия",
@@ -55,5 +55,8 @@
       "country": "gb",
       "class": "flag_gb"
     }
-  ]
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
