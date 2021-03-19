@@ -3,57 +3,48 @@
     {
       "id": 1,
       "name": "Россия",
-      "country": "ru",
-      "class": "flag_ru"
+      "country": "ru"
     },
     {
       "id": 2,
       "name": "Казахстан",
-      "country": "kz",
-      "class": "flag_kz"
+      "country": "kz"
     },
     {
       "id": 3,
       "name": "Киргизия",
-      "country": "kg",
-      "class": "flag_kg"
+      "country": "kg"
     },
     {
       "id": 4,
       "name": "Украина",
-      "country": "ua",
-      "class": "flag_ua"
+      "country": "ua"
     },
     {
       "id": 5,
       "name": "Латвия",
-      "country": "lt",
-      "class": "flag_lt"
+      "country": "lt"
     },
     {
       "id": 6,
       "name": "Эстония",
-      "country": "et",
-      "class": "flag_et"
+      "country": "et"
     },
     {
       "id": 7,
       "name": "Литва",
-      "country": "lv",
-      "class": "flag_lv",
+      "country": "lv"
       "selected": true
     },
     {
       "id": 8,
       "name": "Молдова",
-      "country": "md",
-      "class": "flag_md"
+      "country": "md"
     },
     {
       "id": 9,
       "name": "Великобритания",
-      "country": "gb",
-      "class": "flag_gb"
+      "country": "gb"
     }
   ],
   "profile": {
